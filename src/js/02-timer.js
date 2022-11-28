@@ -28,8 +28,7 @@ const options = {
           'ok'
         ))
       : refs.btnEl.removeAttribute('disabled');
-    interId = selectedDates[0];
-    selectedTime = interId - options.defaultDate;
+    selectedTime = selectedDates[0] - options.defaultDate;
     // if (selectedTime > 1000) {
     //   const time = convertMs(selectedTime);
     //   showDate(time);
